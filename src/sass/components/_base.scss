@@ -1,0 +1,31 @@
+/**
+ * @section Base Styles
+ */
+
+* {
+  box-sizing: border-box;
+  font-smooth: auto;
+  margin: 0;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  background-color: #141422;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}

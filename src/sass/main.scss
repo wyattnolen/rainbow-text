@@ -1,0 +1,32 @@
+@import "components/base";
+
+.list {
+  min-height: 50vh;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+
+  &__item {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    &--one {
+      background-image: linear-gradient(to right, #ff33b4, #f20a5f);
+    }
+    &--two {
+      background-image: linear-gradient(to right, #f20a5f, #f15439);
+    }
+    &--three {
+      background-image: linear-gradient(to right, #f15439, #f3c843);
+    }
+    &--four {
+      background-image: linear-gradient(to right, #f3c843, #82db46);
+    }
+    &--five {
+      background-image: linear-gradient(to right, #82db46, #43d09c);
+    }
+    &--six {
+      background-image: linear-gradient(to right, #35c9f2, #2994ff);
+    }
+  }
+}

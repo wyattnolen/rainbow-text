@@ -1,0 +1,99 @@
+/*!
+ * project-name v0.0.1
+ * A description for your project.
+ * (c) 2019 YOUR NAME
+ * MIT License
+ * http://link-to-your-git-repo.com
+ */
+
+/**
+ * @section Base Styles
+ */
+/* line 5, src/sass/components/_base.scss */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-smooth: auto;
+  margin: 0;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* line 15, src/sass/components/_base.scss */
+body {
+  background-color: #141422;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+}
+
+/* line 21, src/sass/components/_base.scss */
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+/* line 28, src/sass/components/_base.scss */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 3, src/sass/main.scss */
+.list {
+  min-height: 50vh;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+/* line 10, src/sass/main.scss */
+.list__item {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 13, src/sass/main.scss */
+.list__item--one {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff33b4), to(#f20a5f));
+  background-image: linear-gradient(to right, #ff33b4, #f20a5f);
+}
+
+/* line 16, src/sass/main.scss */
+.list__item--two {
+  background-image: -webkit-gradient(linear, left top, right top, from(#f20a5f), to(#f15439));
+  background-image: linear-gradient(to right, #f20a5f, #f15439);
+}
+
+/* line 19, src/sass/main.scss */
+.list__item--three {
+  background-image: -webkit-gradient(linear, left top, right top, from(#f15439), to(#f3c843));
+  background-image: linear-gradient(to right, #f15439, #f3c843);
+}
+
+/* line 22, src/sass/main.scss */
+.list__item--four {
+  background-image: -webkit-gradient(linear, left top, right top, from(#f3c843), to(#82db46));
+  background-image: linear-gradient(to right, #f3c843, #82db46);
+}
+
+/* line 25, src/sass/main.scss */
+.list__item--five {
+  background-image: -webkit-gradient(linear, left top, right top, from(#82db46), to(#43d09c));
+  background-image: linear-gradient(to right, #82db46, #43d09c);
+}
+
+/* line 28, src/sass/main.scss */
+.list__item--six {
+  background-image: -webkit-gradient(linear, left top, right top, from(#35c9f2), to(#2994ff));
+  background-image: linear-gradient(to right, #35c9f2, #2994ff);
+}
